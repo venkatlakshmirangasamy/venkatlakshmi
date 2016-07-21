@@ -22,7 +22,7 @@ public class Vowels {
 			System.out.println("it is one of the vowels");
 			break;
 			default:
-				System.out.println("not vowels");
+				System.out.println("it is a consonant");
 				break;
 		}
 		
