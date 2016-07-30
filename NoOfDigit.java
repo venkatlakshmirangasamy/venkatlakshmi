@@ -6,7 +6,7 @@ public class NoOfDigit
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("enter the number:");
 		int a=scanner.nextInt();
-		int digit=(int) (Math.log10(a)+1);
-		System.out.println("the digit is:"+digit);
+		int count=(int) (Math.log10(a)+1);
+		System.out.println("the count is:"+count);
 	}
 }
